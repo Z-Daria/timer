@@ -93,7 +93,7 @@ window.onload = function() {
         }
     };
 
-    standardMode.click();
+    standardMode.click(); // standard mode will be chosen automatically after starting the app
 }
 
 
