@@ -12,7 +12,7 @@ const modes = document.querySelectorAll('.modes div');
 
 
 window.onload = function() {
-    console.log(document.querySelectorAll('#long'));
+
     let time, 
         timer,
         mode;

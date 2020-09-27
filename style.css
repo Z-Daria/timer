@@ -5,6 +5,10 @@
     font-family: 'Dosis', sans-serif;
 }
 
+html {
+    font-size: 16px;
+}
+
 body, html {
     height: 100%;
     width: 100%;
@@ -22,6 +26,7 @@ main {
 
 header {
     height: 10%;
+    padding: 2%;
     background-color: #d0ccaf;
     display: flex;
     justify-content: center;
@@ -30,7 +35,7 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.13rem;
     color: #ca2542;
     font-family: 'Press Start 2P', cursive;
 }
@@ -54,9 +59,8 @@ h1 {
 
 .modes div, .controls div {
     flex-grow: 1;
-    /* background-color: green; */
-    padding: 10px;
-    font-size: 20px;
+    padding: 2%;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
 }
@@ -76,48 +80,48 @@ h1 {
     border-left: 1px solid #807d6a;
 }
 
-
-
 .time {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 230px;
+    height: 24vh;
 }
 
 .time-values {
-    font-size: 85px;
+    font-size: 5.3rem;
 }
 
 .time-values span {
-    /* background-color: teal; */
     padding: 10px;
     margin: 0 10px;
     border-radius: 23px;
 }
 
-@media only screen and (max-width: 517px) {
-    h1 {
-        font-size: 40px;
-    }
-    .timer-container {
-        width: 80%;
+@media only screen and (min-width: 520px) and (max-width: 900px), (max-height: 768px) {
+    html {
+        font-size: 10px;
     }
 
-    .modes div, .controls div {
-        font-size: 17px;
+    header {
+        padding: 4%;
     }
 
-    .t {
-        font-size: 65px;
+    .timer-container{
+        width: 50%;
     }
 }
 
-@media only screen and (min-width: 520px) and (max-width: 900px) {
-    h1 {
-        font-size: 50px;
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    html {
+        font-size: 8px;
     }
+
+    header {
+        padding: 5%;
+    }
+
     .timer-container{
         width: 60%;
     }
+
 }
