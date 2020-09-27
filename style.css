@@ -85,11 +85,11 @@ h1 {
     height: 230px;
 }
 
-.t {
+.time-values {
     font-size: 85px;
 }
 
-.t span {
+.time-values span {
     /* background-color: teal; */
     padding: 10px;
     margin: 0 10px;
