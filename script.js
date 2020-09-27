@@ -30,7 +30,7 @@ window.onload = function() {
     shortMode.onclick = function() {
         clearInterval(timer);
         mode = 'short';
-        minutesContainer.innerHTML = '0';
+        minutesContainer.innerHTML = '5';
         secondsContainer.innerHTML = '00';
         time = parseInt(minutesContainer.innerHTML) * 60;
         play.style.pointerEvents = 'auto'; // block play button
